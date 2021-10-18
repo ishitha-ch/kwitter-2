@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Kwitter Web App</title>
+        <link rel="stylesheet" href="kwitter.css">
+        <script src="kwitter.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <button onclick="logout()" class="btn btn-danger fa fa-sign-out" id="logout"> Logout</button>
+        
+        <center>
+                <h1 class="white">Welcome</h1> <h1 id="name" class="white"></h1>
+                <p>Pick a room to start chatting</p>
+                <h3>Add room name or choose one from below</h3>
+                <input type="text" id="inputtext" class="form-control" placeholder="Type here">
+                <br>
+                <button class="btn btn-success" onclick="addroom()">Add Room</button>
+
+        </center>
+  
+    </body>
+</html>
+            
